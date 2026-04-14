@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Usuarios - UTN</title>
+    <link rel="stylesheet" href="css/lista.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h2>Usuarios del Sistema</h2>
+
+        <!-- Barra de búsqueda -->
+        <div class="buscador">
+            <input type="text" id="txtBuscar" placeholder="Buscar por usuario...">
+            <button onclick="buscar()">Buscar</button>
+            <button onclick="cargarTodos()">Ver Todos</button>
+        </div>
+
+        <!-- Mensaje cuando no hay resultados -->
+        <div id="sinResultados" class="sin-resultados">
+            No se encontraron usuarios.
+        </div>
+
+        <!-- Tabla de usuarios -->
+        <table id="tablaUsuarios">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Usuario</th>
+                    <th>Bloqueado</th>
+                    <th>Apellido</th>
+                    <th>Nombre</th>
+                    <th>Bloquear</th>
+                    <th>Desbloquear</th>
+                </tr>
+            </thead>
+            <tbody id="cuerpoTabla">
+                <!-- Los datos se cargan dinámicamente con JS -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/lista.js"></script>
+</body>
+</html>
