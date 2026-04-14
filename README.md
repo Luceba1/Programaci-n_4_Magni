@@ -10,7 +10,7 @@ Repositorio grupal de trabajos prácticos de la materia **Programación 4**.
 
 - Lucas Pujada
 - Bruno Rivera
-- Gianfranco Caciani
+- Gianfranco Canciani
 - Julio Leiva
 
 ---
